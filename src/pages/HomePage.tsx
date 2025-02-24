@@ -1,4 +1,5 @@
 import DrinkCalculator from "../components/DrinkCalculator";
+import DrinkTracker from "../components/DrinkTracker";
 
 export default function HomePage() {
   return (
@@ -39,6 +40,13 @@ export default function HomePage() {
           <h2 className="text-2xl font-bold mb-2">Calculator</h2>
           <div className="border-2 border-black p-4 rounded bg-gray-50">
             <DrinkCalculator />
+          </div>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-bold mb-2">Tracker</h2>
+          <div className="border-2 border-black p-4 rounded bg-gray-50">
+            <DrinkTracker />
           </div>
         </section>
 
